@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: #4d3e3e;
+  color: #fff3cd;
+  font-family: 'Jost', sans-serif;
+  font-size: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  color: #ff926b;
+}
+
+/* Utilities */
+.container {
+  margin: auto;
+  width: 1200px;
+}
+
+.clr {
+  clear: both;
+}
+/* Navbar */
+.navbar {
+  color: #ff926b;
+  font-size: 1.8rem;
+  padding: 20px;
+}
+.navbar h1 {
+  float: left;
+}
+
+.navbar ul {
+  float: right;
+  list-style: none;
+}
+
+.navbar ul li {
+  float: left;
+}
+
+.navbar ul li a {
+  color: #ff926b;
+  padding: 30px;
+}
+
+.navbar ul li a:hover {
+  background-color: #ff926b;
+  color: #fff3cd;
+}
+
+/* Welcome */
+.welcome {
+  padding-top: 50px;
+  text-align: center;
+}
+.welcome h1 {
+  color: #ffc38b;
+  font-family: 'Pacifico', cursive;
+  font-size: 9rem;
+}
+
+.welcome p {
+  font-size: 6rem;
+}
+
+/* Aside */
+.aside {
+  float: right;
+  padding: 20px;
+}
+
+aside h3 {
+  font-size: 3rem;
+}
+
+.aside ul {
+  font-size: 1.8rem;
+  list-style: none;
+}
+
+/* Coffee Main */
+.coffee-main {
+  float: left;
+  margin-left: 100px;
+}
+
+.coffee-main h2 {
+  font-size: 4rem;
+  padding: 30px 0;
+}
+
+.coffee-main p {
+  font-size: 2.5rem;
+  padding: 30px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+}
