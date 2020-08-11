@@ -17,6 +17,70 @@ a {
 
 h2 {
   color: #ff926b;
+  font-size: 4rem;
+  padding: 30px 0;
+}
+
+h3 {
+  font-size: 2rem;
+  letter-spacing: 2px;
+}
+
+h4 {
+  padding: 10px;
+  font-size: 1.2rem;
+}
+
+.air {
+  
+  height: 60%;
+}
+
+.brewed {
+  height: 60%;
+  background-image: linear-gradient(#381F02, #6A4B26 );
+}
+
+.chocolate {
+  height: 30%;
+  background-image: linear-gradient(#4A4034, #381F02 );
+}
+
+.espresso {
+  background-color: #2D2008;
+  height: 40%;
+}
+
+.foamed-milk {
+  height: 40%;
+  background-color: #CCB48A;
+}
+
+.half {
+  background-image: linear-gradient(#F2A249, #3B2710 );
+  height: 60%
+}
+
+.hot-milk {
+  background-image: linear-gradient(#E9827C, #5C3330 );
+}
+
+.steamed-milk {
+  background-image: linear-gradient(#D1CAA7, #A17326 );
+  height: 60%;
+  color: #2D2008;
+}
+
+.water {
+  background-color: #fff3cd;
+  height: 60%;
+  color: #2D2008;
+}
+
+.whipped-cream {
+  height: 60%;
+  background-image: linear-gradient(#EFEACA, #F2A593);
+  color: #2D2008;
 }
 
 /* Utilities */
@@ -25,9 +89,28 @@ h2 {
   width: 1200px;
 }
 
-.clr {
-  clear: both;
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
 }
+
+.item {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid #fff3cd;
+  flex: 1;
+  text-align: center;
+}
+
+.item-cup {
+  border: solid 1px #fff3cd;
+  width: 100px;
+  height: 200px;
+  margin: 10px 0;
+  flex-shrink: 0;
+}
+
 /* Navbar */
 .navbar {
   color: #ff926b;
@@ -72,35 +155,72 @@ h2 {
   font-size: 6rem;
 }
 
-/* Aside */
-.aside {
-  float: right;
-  padding: 20px;
-}
-
-aside h3 {
-  font-size: 3rem;
-}
-
-.aside ul {
-  font-size: 1.8rem;
-  list-style: none;
-}
-
 /* Coffee Main */
 .coffee-main {
   float: left;
   margin-left: 100px;
 }
 
-.coffee-main h2 {
-  font-size: 4rem;
-  padding: 30px 0;
-}
-
 .coffee-main p {
   font-size: 2.5rem;
   padding: 30px;
+}
+
+/* Coffee Menu */
+/* Espresso */
+#espresso .air {
+  height: 70%;
+}
+
+#espresso .espresso {
+  height: 30%;
+}
+
+/* Ristretto */
+#ristretto .air {
+  height: 80%;
+}
+
+#ristretto .espresso {
+  height: 22%;
+}
+
+/* Macchiato */
+#macchiato .air {
+  height: 20%;
+}
+
+/* Cappuccino */
+#cappuccino .item-cup .foamed-milk,
+#cappuccino .item-cup .steamed-milk{
+  height: 30%;
+}
+
+/* Cafe Latte */
+#latte .item-cup .foamed-milk {
+  height: 20%;
+}
+#latte .item-cup .steamed-milk {
+  height: 40%;
+}
+
+/* Viennois */
+#viennois .item-cup .hot-milk,
+#viennois .item-cup .whipped-cream {
+  height: 30%;
+}
+
+/* Mocha Breve */
+#mocha-breve .item-cup .half {
+  height: 30%;
+}
+
+/* Mocha */
+#mocha .item-cup .chocolate {
+  height: 40%;
+}
+#mocha .item-cup .steamed-milk {
+  height: 20%;
 }
 
 /* Footer */
