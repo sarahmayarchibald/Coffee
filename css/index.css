@@ -7,7 +7,7 @@
 html, body {
   color: #fff3cd;
   font-family: 'Jost', sans-serif;
-  background: url(../img/coffee-beans.jpg) no-repeat center center /cover;
+  
 }
 
 a {
@@ -15,8 +15,9 @@ a {
   color: #fff3cd;
 }
 
-h1 {
-  color: #000
+.welcome h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
 }
 
 h2, h3 {
@@ -31,7 +32,6 @@ h2 {
 
 h3 {
   text-align: center;
-  color: #000;
 }
 
 img {
@@ -43,10 +43,7 @@ ul {
 }
 
 /* Utilities */
-.container {
-  margin: auto;
-  width: 1500px;
-}
+
 
 .chapter-core {
   display: flex;
@@ -93,18 +90,35 @@ ul {
 }
 
 /* Header */
+header {
+  background: url(../img/coffee-beans2.jpg) no-repeat center center/cover;
+  position: relative;
+  height: 100vh;
+}
+.overlay {
+  background: rgba(46, 10, 11, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
 .welcome {
-  height: 80vh;
-  padding-top: 50px;
-  text-align: left;
-  margin: 300px 115px 0;
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
 }
 .welcome h1 {
   font-size: 9rem;
 }
 
 .welcome p {
-  font-size: 6rem;
+  font-size: 2.5rem;
+  align-self: flex-end;
 }
 
 /* Process */
