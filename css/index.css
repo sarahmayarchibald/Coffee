@@ -64,29 +64,32 @@ ul {
 .navbar {
   color: #fff3cd;
   font-size: 1.2rem;
-  padding: 40px 0;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
 }
 
 .navbar h1 {
-  float: left;
   color: #fff3cd;
 }
 
 .navbar ul {
-  float: right;
-}
-
-.navbar ul li {
-  float: left;
-  padding: 10px 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 500px;
+  height: 100%;
 }
 
 .navbar ul li a {
-  
+  padding: 30px;
 }
 
-.navbar ul li a:hover {  
+.navbar a:hover {  
   color: #ff926b;
+  background-color: #000;
 }
 
 /* Header */
@@ -133,6 +136,7 @@ header {
 /* Menu */
 .menu {
   padding-bottom: 50px;
+  background-color: #333;
 }
 
 .menu h2 {
@@ -170,5 +174,6 @@ header {
 /* Footer */
 footer {
   text-align: center;
-  margin: 20px;
+  padding: 20px;
+  background-color: #333;
 }
