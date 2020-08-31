@@ -1,293 +1,390 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>The Coffee Type | For Coffee Lovers</title>
-  <link href="https://fonts.googleapis.com/css2?family=Jost&family=Roboto:wght@500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/index.css">
-</head>
-<body>
-  <nav class="navbar bg-dark">
-    <h1>The Coffee Type</h1>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Contact</a></li>
-    </ul>
-  </nav>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-  <header> 
-    <div class="overlay">
-      <div class="welcome">
-        <h1>The Coffee Type</h1>
-        <p>For the Love of Coffee</p>
-      </div>
-    </div>
-  </header>
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
 
-  <section class="main">
-    <div class="history bg-dark">
-      <div class="chapter-core">
-        <img src="/img/cup-beans.jpg" alt="">
-        <div class="chapter-text">
-          <h2>The History of Coffee</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident voluptatem hic amet est quam rem aperiam quaerat saepe fugiat necessitatibus.</p>
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Coffee Type</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+        <!-- Logo -->
+        <a class="navbar-brand" href="#home" 
+          ><i class="fas fa-mug-hot"></i> Coffee Type</a
+        >
+
+        <!-- Hamburger Menu after logo-->
+        <button
+          type="button"
+          class="navbar-toggler navbar-dark"
+          data-toggle="collapse"
+          data-target="#navbar-elements"
+          aria-expanded="false"
+          aria-controls="navbarSupportedContent"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- To collapse elements -->
+        <div class="collapse navbar-collapse" id="navbar-elements">
+          <!-- Right Elements-->
+          <ul class="navbar-nav ml-auto">
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#history" class="nav-link">History</a></li>
+            <li><a href="#process" class="nav-link">Process</a></li>
+            <li><a href="#health" class="nav-link">Health</a></li>
+            <li><a href="#coffee-menu" class="nav-link">Menu</a></li>
+          </ul>
         </div>
       </div>
-      
-    </div>
+    </nav>
 
-    <div class="process bg-dark">
-      <div class="chapter-core">
-        <img src="/img/cup-b-dark.jpg" alt="">
-        <div class="chapter-text">
-          <h2>The Process</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ea porro distinctio! Optio ducimus saepe dolorem iure suscipit. Perspiciatis, accusamus.</p>
+    <!-- Header -->
+    <header>
+      <div class="container" id="home">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="content">
+              <h1>COFFEE TYPE</h1>
+              <h2>What type of coffee do you love?</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Coffee Info -->
+    <div>
+      <div class="row">
+        <div class="coffee-img col-md-6">
+          <img
+            class="img-fluid"
+            src="https://images.unsplash.com/photo-1457414104202-9d4b4908f285?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1784&q=80"
+            alt=""
+          />
+        </div>
+        <div class="coffee-text col-md-6" id="history">
+          <h3>History</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere
+            natus excepturi quis expedita nihil tenetur dolor itaque? Ea quidem
+            soluta id iusto magnam laboriosam aut perferendis obcaecati? Ut,
+            magnam a?
+          </p>
+        </div>
+
+        <div class="coffee-img col-md-6 order-md-2">
+          <img
+            class="img-fluid"
+            src="https://images.pexels.com/photos/1695052/pexels-photo-1695052.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+            alt=""
+          />
+        </div>
+        <div class="coffee-text col-md-6 order-md-1" id="process">
+          <h3>Process</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere
+            natus excepturi quis expedita nihil tenetur dolor itaque? Ea quidem
+            soluta id iusto magnam laboriosam aut perferendis obcaecati? Ut,
+            magnam a?
+          </p>
+        </div>
+
+        <div class="coffee-img col-md-6 order-md-3">
+          <img
+            class="img-fluid"
+            src="https://images.unsplash.com/photo-1428550443830-190057dc8098?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1502&q=80"
+            alt=""
+          />
+        </div>
+        <div class="coffee-text col-md-6 order-md-4" id="health">
+          <h3>Health</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere
+            natus excepturi quis expedita nihil tenetur dolor itaque? Ea quidem
+            soluta id iusto magnam laboriosam aut perferendis obcaecati? Ut,
+            magnam a?
+          </p>
         </div>
       </div>
     </div>
-      
-    <div class="benefits bg-dark">
-      <div class="chapter-core">
-        <img src="/img/cup-latte.jpg" alt="">
-        <div class="chapter-text">
-          <h2>Benefits & Risk of Caffeine</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ea porro distinctio! Optio ducimus saepe dolorem iure suscipit. Perspiciatis, accusamus.</p>
+
+    <!-- Coffee Cards -->
+    <div class="container" id="coffee-menu">
+      <div class="title">
+        <h2>Coffee Menu</h2>
+      </div>
+    </div>
+
+    <div class="row coffee-cards">
+      <div class="col-lg-3 col-sm-6">
+        <img
+          src="https://images.pexels.com/photos/544113/pexels-photo-544113.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+          alt=""
+          class="img-thumbnail img-card"
+        />
+        <div class="coffee-content">
+          <h3>Ristretto</h3>
+          <ul>
+            <li>Expresso 22ml</li>
+            <li>Concentrated</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6">
+        <img
+          src="https://images.pexels.com/photos/544113/pexels-photo-544113.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+          alt=""
+          class="img-thumbnail img-card"
+        />
+        <div class="coffee-content">
+          <h3>Espresso</h3>
+          <ul>
+            <li>Expresso 30ml </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6">
+        <img
+          src="https://images.pexels.com/photos/544113/pexels-photo-544113.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+          alt=""
+          class="img-thumbnail img-card"
+        />
+        <div class="coffee-content">
+          <h3>Doppio</h3>
+          <ul>
+            <li>Expresso 60ml</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-sm-6">
+        <img
+          src="https://images.pexels.com/photos/544113/pexels-photo-544113.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+          alt=""
+          class="img-thumbnail img-card"
+        />
+        <div class="coffee-content">
+          <h3>Lungo</h3>
+          <ul>
+            <li>Expresso 60ml</li>
+            <li>Less Concentrated</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6">
+        <img
+          src="https://images.pexels.com/photos/544113/pexels-photo-544113.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+          alt=""
+          class="img-thumbnail img-card"
+        />
+        <div class="coffee-content">
+          <h3>Americano</h3>
+          <ul>
+            <li>Water 60ml</li>
+            <li>Expresso 30ml</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6">
+        <img
+          src="https://images.pexels.com/photos/544113/pexels-photo-544113.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+          alt=""
+          class="img-thumbnail img-card"
+        />
+        <div class="coffee-content">
+          <h3>Macchiato</h3>
+          <ul>
+            <li>Foamed Milk 50ml</li>
+            <li>Expresso 60ml</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-sm-6">
+        <img
+          src="https://images.pexels.com/photos/544113/pexels-photo-544113.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+          alt=""
+          class="img-thumbnail img-card"
+        />
+        <div class="coffee-content">
+          <h3>Cappuccino</h3>
+          <ul>
+            <li>Foamed Milk 60ml</li>
+            <li>Steamed Milk 60ml</li>
+            <li>Expresso 60ml</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6">
+        <img
+          src="https://images.pexels.com/photos/544113/pexels-photo-544113.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+          alt=""
+          class="img-thumbnail img-card"
+        />
+        <div class="coffee-content">
+          <h3>Cafe Latte</h3>
+          <ul>
+            <li>Foamed Milk 2ml</li>
+            <li>Steamed Milk 120ml</li>
+            <li>Expresso 60ml</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6">
+        <img
+          src="https://images.pexels.com/photos/544113/pexels-photo-544113.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+          alt=""
+          class="img-thumbnail img-card"
+        />
+        <div class="coffee-content">
+          <h3>Flat White</h3>
+          <ul>
+            <li>Steamed Milk 120ml</li>
+            <li>Expresso 60ml</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-sm-6">
+        <img
+          src="https://images.pexels.com/photos/544113/pexels-photo-544113.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+          alt=""
+          class="img-thumbnail img-card"
+        />
+        <div class="coffee-content">
+          <h3>Con Panna</h3>
+          <ul>
+            <li>Whipped Cream 90ml</li>
+            <li>Expresso 60ml</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6">
+        <img
+          src="https://images.pexels.com/photos/544113/pexels-photo-544113.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+          alt=""
+          class="img-thumbnail img-card"
+        />
+        <div class="coffee-content">
+          <h3>Viennois</h3>
+          <ul>
+            <li>Whipped Cream 60ml</li>
+            <li>Hot Milk 60ml</li>
+            <li>Expresso 60ml</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6">
+        <img
+          src="https://images.pexels.com/photos/544113/pexels-photo-544113.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+          alt=""
+          class="img-thumbnail img-card"
+        />
+        <div class="coffee-content">
+          <h3>Breve</h3>
+          <ul>
+            <li>Half & Half 90ml</li>
+            <li>Expresso 60ml</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-sm-6">
+        <img
+          src="https://images.pexels.com/photos/544113/pexels-photo-544113.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+          alt=""
+          class="img-thumbnail img-card"
+        />
+        <div class="coffee-content">
+          <h3>Mocha Breve</h3>
+          <ul>
+            <li>Half & Half 60ml</li>
+            <li>Chocolate 60ml</li>
+            <li>Expresso 60ml</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6">
+        <img
+          src="https://images.pexels.com/photos/544113/pexels-photo-544113.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+          alt=""
+          class="img-thumbnail img-card"
+        />
+        <div class="coffee-content">
+          <h3>Mocha</h3>
+          <ul>
+            <li>Steamed Milk 30ml</li>
+            <li>Chocolate 60ml</li>
+            <li>Expresso 60ml</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6">
+        <img
+          src="https://images.pexels.com/photos/544113/pexels-photo-544113.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+          alt=""
+          class="img-thumbnail img-card"
+        />
+        <div class="coffee-content">
+          <h3>Black Eye</h3>
+          <ul>
+            <li>Brewed Coffee 120ml</li>
+            <li>Expresso 60ml</li>
+          </ul>
         </div>
       </div>
     </div>
 
-    <div class="menu">
-      <h2>Coffee Menu</h2>
-      <div class="flex-container">
-        <!-- Ristretto -->
-        <div class="item">
-          <div class="vector-img">
-            <img src="" alt="">
-          </div>
-          <div class="coffee-content">
-            <h3>Ristretto</h3>
-            <ul>
-              <li>Expresso 22ml</li>
-              <li>Concentrated</li>
-            </ul>
-          </div>
-        </div>
-
-        <!-- Espresso -->
-        <div class="item">
-          <div class="vector-img">
-            <img src="" alt="">
-          </div>
-          <div class="coffee-content">
-            <h3>Espresso</h3>
-            <ul>
-              <li>Expresso 30ml </li>
-            </ul>
-          </div>
-        </div>
-
-        <!-- Doppio -->
-        <div class="item">
-          <div class="vector-img">
-            <img src="" alt="">
-          </div>
-          <div class="coffee-content">
-            <h3>Doppio</h3>
-            <ul>
-              <li>Expresso 60ml</li>
-            </ul>
-          </div>
-        </div>
-
-        <!-- Lungo -->
-        <div class="item">
-          <div class="vector-img">
-            <img src="" alt="">
-          </div>
-          <div class="coffee-content">
-            <h3>Lungo</h3>
-            <ul>
-              <li>Expresso 60ml</li>
-              <li>Less Concentrated</li>
-            </ul>
-          </div>
-        </div>
-
-        <!-- Americano -->
-        <div class="item">
-          <div class="vector-img">
-            <img src="" alt="">
-          </div>
-          <div class="coffee-content">
-            <h3>Americano</h3>
-            <ul>
-              <li>Water 60ml</li>
-              <li>Expresso 30ml</li>
-            </ul>
-          </div>
-        </div>
-
-        <!-- Macchiato -->
-        <div class="item">
-          <div class="vector-img">
-            <img src="" alt="">
-          </div>
-          <div class="coffee-content">
-            <h3>Macchiato</h3>
-            <ul>
-              <li>Foamed Milk 50ml</li>
-              <li>Expresso 60ml</li>
-            </ul>
-          </div>
-        </div>
-
-        <!-- Flat White -->
-        <div class="item">
-          <div class="vector-img">
-            <img src="" alt="">
-          </div>
-          <div class="coffee-content">
-            <h3>Flat White</h3>
-            <ul>
-              <li>Steamed Milk 120ml</li>
-              <li>Expresso 60ml</li>
-            </ul>
-          </div>
-        </div>
-
-        <!-- Cappuccino -->
-        <div class="item">
-          <div class="vector-img">
-            <img src="" alt="">
-          </div>
-          <div class="coffee-content">
-            <h3>Cappuccino</h3>
-            <ul>
-              <li>Foamed Milk 60ml</li>
-              <li>Steamed Milk 60ml</li>
-              <li>Expresso 60ml</li>
-            </ul>
-          </div>
-        </div>
-
-        <!-- Cafe Latte -->
-        <div class="item">
-          <div class="vector-img">
-            <img src="" alt="">
-          </div>
-          <div class="coffee-content">
-            <h3>Cafe Latte</h3>
-            <ul>
-              <li>Foamed Milk 2ml</li>
-              <li>Steamed Milk 120ml</li>
-              <li>Expresso 60ml</li>
-            </ul>
-          </div>
-        </div>
-
-        <!-- Con Panna -->
-        <div class="item">
-          <div class="vector-img">
-            <img src="" alt="">
-          </div>
-          <div class="coffee-content">
-            <h3>Con Panna</h3>
-            <ul>
-              <li>Whipped Cream 90ml</li>
-              <li>Expresso 60ml</li>
-            </ul>
-          </div>
-        </div>
-
-        <!-- Viennois -->
-        <div class="item">
-          <div class="vector-img">
-            <img src="" alt="">
-          </div>
-          <div class="coffee-content">
-            <h3>Viennois</h3>
-            <ul>
-              <li>Whipped Cream 60ml</li>
-              <li>Hot Milk 60ml</li>
-              <li>Expresso 60ml</li>
-            </ul>
-          </div>
-        </div>
-
-        <!-- Breve -->
-        <div class="item">
-          <div class="vector-img">
-            <img src="" alt="">
-          </div>
-          <div class="coffee-content">
-            <h3>Breve</h3>
-            <ul>
-              <li>Half & Half 90ml</li>
-              <li>Expresso 60ml</li>
-            </ul>
-          </div>
-        </div>
-
-        <!-- Mocha Breve -->
-        <div class="item">
-          <div class="vector-img">
-            <img src="" alt="">
-          </div>
-          <div class="coffee-content">
-            <h3>Mocha Breve</h3>
-            <ul>
-              <li>Half & Half 60ml</li>
-              <li>Chocolate 60ml</li>
-              <li>Expresso 60ml</li>
-            </ul>
-          </div>
-        </div>
-
-        <!-- Mocha -->
-        <div class="item">
-          <div class="vector-img">
-            <img src="" alt="">
-          </div>
-          <div class="coffee-content">
-            <h3>Mocha</h3>
-            <ul>
-              <li>Steamed Milk 30ml</li>
-              <li>Chocolate 60ml</li>
-              <li>Expresso 60ml</li>
-            </ul>
-          </div>
-        </div>
-
-        <!-- Black Eye -->
-        <div class="item">
-          <div class="vector-img">
-            <img src="" alt="">
-          </div>
-          <div class="coffee-content">
-            <h3>Black Eye</h3>
-            <ul>
-              <li>Brewed Coffee 120ml</li>
-              <li>Expresso 60ml</li>
-            </ul>
-          </div>
-        </div>
-
-
-      </div>
-    </div>
-  </section>
   
-      
 
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+
+    <footer class="footer">
+      <p>&copy;Sarah-May Archibald 2020</p>
+      <p>Images: <a href="https://www.pexels.com/">Pexels</a></p>
+    </footer>
   
-
-  <footer>
-    <p>Sarah-May Archibald &copy; 2020</p>
-  </footer>
-</body>
-
-  
-
+  </body>
 </html>
