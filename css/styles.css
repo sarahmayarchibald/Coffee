@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  width: 100%;
+  background-color: #110501;
+  color: #F0D9C3;
+}
+
+a {
+  color: #F0D9C3;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+header {
+  background: url('https://images.unsplash.com/photo-1509785307050-d4066910ec1e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1228&q=80')no-repeat center center/cover;
+  height: 100vh;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 4.5rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+/* Utilities */
+.navbar {
+  background-color: #110501;
+}
+
+.navbar a:hover {
+  background-color: #F0D9C3;
+  color: #110501;
+  border-radius: 2px;
+}
+
+.navbar-brand:hover {
+  padding: 5px 10px; 
+}
+
+.content {
+  padding-top: 20%;
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+}
+
+.title h2 {
+  font-size: 3rem;
+}
+
+.row {
+  padding: 0;
+  max-width: 100%;
+  margin: 3% auto;
+}
+
+/* Coffee Info */
+.img-fluid, .coffee-text {
+  width: 100%;
+  height: auto;
+}
+
+.coffee-text {
+  text-align: center;
+  padding: 5% 5%;
+}
+
+.coffee-text h3 {
+  margin: 5% 0;
+}
+
+/* Coffee Menu */
+.coffee-content {
+  text-align: center;
+  padding: 5% 0;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  font-size: 0.5rem;
+  padding: 2% 0;
+  color: #53220B;
+}
+
+.footer p {
+  display: inline;
+}
+
+.footer a {
+  color: #53220B;
+  margin: 0;
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: #F0D9C3;
+}
+
+@media (max-width: 575px) {
+  .coffee-cards {
+    max-width: 300px;
+  }
+}
